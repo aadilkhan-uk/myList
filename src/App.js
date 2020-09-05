@@ -8,7 +8,7 @@ import { BrowserRouter, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <BrowserRouter basename="/my-list">
+    <BrowserRouter basename="/mylist">
       <div className={styles.Main}>
         <Welcome />
       </div>
