@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import styles from './Welcome.module.css';
-import {Route, Link} from 'react-router-dom'
+import {Route, Link, Redirect} from 'react-router-dom'
 import Toolbar from '../Toolbar/Toolbar';
 import ListMaker from '../../Container/ListMaker/ListMaker';
 
@@ -17,8 +17,10 @@ export class Welcome extends Component {
                         </ Link>
                     </div>
                 } />
+                <Redirect from="/mylist" to="/" />
                 <Route path="/mylists" component={Toolbar}/>
                 <Route path="/mylists" component={ListMaker} />
+
             </div>
         )
     }
