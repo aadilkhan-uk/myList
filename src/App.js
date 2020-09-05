@@ -8,9 +8,11 @@ import { BrowserRouter, Route } from 'react-router-dom';
 
 function App() {
   return (
+    <BrowserRouter basename="/mylist" >
       <div className={styles.Main}>
         <Welcome />
       </div>
+    </ BrowserRouter>
   );
 }
 

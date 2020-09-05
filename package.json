@@ -2,7 +2,7 @@
   "name": "my-list",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://aadilkhan-uk.github.io/mylist",
+  "homepage": "http://aadilkhan-uk.github.io/mylist",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",

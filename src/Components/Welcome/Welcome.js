@@ -8,7 +8,8 @@ export class Welcome extends Component {
     render() {
         return (
             <div>
-                <Route path="/" render={() => 
+                
+                <Route path="/" exact render={() => 
                     <div class={styles.MainContainer}>
                         <h2>Welcome to myList</h2>
                         <p>To get started click the proceed button!</p>
@@ -17,10 +18,12 @@ export class Welcome extends Component {
                         </ Link>
                     </div>
                 } />
-        
-                <Route path="/mylists" exact component={Toolbar}/>
-                <Route path="/mylists" exact component={ListMaker} />
 
+                <Route path="/mylists"  component={Toolbar}/>
+                <Route path="/mylists"  component={ListMaker} />
+
+                <Route render={() => <h2>Error 404 - Page not found!</h2>}/>
+                
             </div>
         )
     }
