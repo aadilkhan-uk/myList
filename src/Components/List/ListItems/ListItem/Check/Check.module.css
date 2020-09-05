@@ -1,0 +1,15 @@
+.Check {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #BEDB99;
+    border: 4px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    padding-left: 20px;
+}
+
+.Check:hover {
+    background: rgb(98, 112, 78);
+}

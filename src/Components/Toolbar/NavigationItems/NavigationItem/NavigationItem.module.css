@@ -1,0 +1,16 @@
+.NavItem {
+    font-size: 1.2rem;
+    color: white;
+    padding: 0px 36px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.NavItem a {
+    text-decoration: none;
+}
+
+.NavItem:hover{
+    font-size: 1.8rem;
+    color: rgb(58, 54, 54);
+}
