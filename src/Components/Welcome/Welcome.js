@@ -22,8 +22,6 @@ export class Welcome extends Component {
                 <Route path="/mylists"  component={Toolbar}/>
                 <Route path="/mylists"  component={ListMaker} />
 
-                <Route render={() => <h2>Error 404 - Page not found!</h2>}/>
-                
             </div>
         )
     }
